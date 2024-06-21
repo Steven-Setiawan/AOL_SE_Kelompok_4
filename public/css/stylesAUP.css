@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a3d;
+    color: white;
+}
+
+/****/
+
+
+header {
+    color: #000000;
+    padding: 0px;
+    font-family: 'sansation', sans-serif;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 35px;
+}
+  
+nav ul li a {
+    color: rgba(255, 255, 255, 0.84);
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+/****/
+
+.about-us {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.header {
+    background-image: url('cityscape.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+    font-size: 3em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.vision, .mission {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 80%;
+}
+
+.vision {
+    flex-direction: row;
+    text-align: left;
+}
+
+.mission {
+    flex-direction: row;
+    text-align: left;
+}
+
+.text {
+    width: 60%;
+    padding: 20px;
+}
+
+.vision h2, .mission h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.vision p, .mission p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.vision-pic, .mission-pic {
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 2em;
+    margin: 20px;
+}
+
+.vision {
+    flex-direction: row-reverse;
+}
+
+.mission {
+    flex-direction: row;
+}
